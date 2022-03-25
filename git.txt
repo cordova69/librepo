@@ -1,0 +1,24 @@
+   email:  alex.cordova@libertymutual.com
+password:  libertymutual123
+username:  cordova69
+
+test ssh:  ssh -T git@github.com
+can disable SSL certs:  git config --global http.sslverify false
+
+Enable a repo when you're in a directory you want it to be:
+
+	git init  <== takes the name of the directory you're in
+	git add <file> or git add .  #for all files in this directory
+	git commit -m "message" <= for a message you can add -m "add message"
+	git remote add origin https://github.com/cordova69/test.git
+	git push -u origin master
+	git add <file name>
+	git reset HEAD <file>  <= to unstage	
+
+...or push an existing repository
+
+	git remote add origin git@github.com:<github.com/<git reponame>/actual repo.git>
+	git push -u origin master  #if keys aren't setup you'll be prompted
+
+
+
