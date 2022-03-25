@@ -23,5 +23,9 @@ Enable a repo when you're in a directory you want it to be:
 
 	git commit -a -m "any message" <== skip staging and commits at the same time
 
+	git log --stat
+	git log --patch <==full diff of the exact changes in each file with each commit.
+
+	git rm <file>  <= staged file's removal and Git stopped tracking
 
 
