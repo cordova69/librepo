@@ -1,0 +1,16 @@
+{
+  "name": "Git.REPO",
+  "homepage": "https://github.com/giturassout/Git.REPO",
+  "authors": [
+    "Alex <alex.cordvoa@libertymutual.com>"
+  ],
+  "description": "My first bower",
+  "main": "bower.wtf",
+  "keywords": [
+    "bower"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.8.3"
+  }
+}
